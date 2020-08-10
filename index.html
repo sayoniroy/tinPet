@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>tinPet</title>
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+  <!-- css style sheets -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/bcb98e741f.js" crossorigin="anonymous"></script>
+
+  <!-- bootstrap stuffs -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <section id="title">
+
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <!-- navbarexpand helps us to get the navbar horizontally and bg-light helps with background colour-->
+      <a class="navbar-brand" href="#title" id="tindog-logo">tinPet</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">About The Developer <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cta">Download</a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid" id="cfluid">
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Help your pet meet new and interesting animals nearby!</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"> <i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-img" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="fas fa-check-circle fa-4x iconstyle"></i>
+        <h3>Simple Interface</h3>
+        <p>Your pet should be able to use this without guidance!</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="fas fa-list-ol fa-4x iconstyle"></i>
+        <h3>Easy Filtering</h3>
+        <p>Snakes and Rats don't go well together so if you're a rat, filter the snake out!</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="fas fa-dog fa-4x iconstyle"></i>
+        <h3>No Lonely Pets!</h3>
+        <p>Find the love of your pet's life or your money back.</p>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on tinPet. Woof.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" class="d-block w-100" alt="dog-profile">
+          <em>Peta, New York</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My cat was really bossy and rejected almost every girl he met until he found the love of his life on tinPet and now he is happier than ever!</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" class="d-block w-100" alt="lady-profile">
+          <em>Donaly, Illinois</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog is now more educated about her dating choices after meeting several other men on tinPet.</h2>
+          <img class="testimonial-image" src="images/shiba.jpg" class="d-block w-100" alt="shiba-profile">
+          <em>Koichi, Japan</em>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+
+    <h2>A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6 pricing-column">
+        <div class="card">
+          <div class="card-header">
+            <h3>Basic Tier</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-dark btn-lg btn-block">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 pricing-column">
+        <div class="card">
+          <div class="card-header">
+            <h3>Premium Tier</h3>
+          </div>
+          <div class="card-body">
+            <h2>$49 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-light btn-lg btn-block">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 pricing-column">
+        <div class="card">
+          <div class="card-header">
+            <h3>Diamond Tier</h3>
+          </div>
+          <div class="card-body">
+            <h2>$99 / mo</h2>
+            <p>Pirority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-light btn-lg btn-block">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3>Find the True Love of Your Pet's Life Today.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+
+    <h4>The download buttons won't work as this isn't a real product but if you contact me, maybe it can be!</h2>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <a href="https://www.linkedin.com/in/sayoniroyuni/"><i class="fab fa-4x fa-linkedin-in"></i></a>
+    <p>© A FAKE website by Sayoni Roy</p>
+  </footer>
+
+</body>
+
+</html>
